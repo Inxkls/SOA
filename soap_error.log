@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\Users\PC PRIDE WHITE WOLF\OneDrive\Escritorio\calificaciones\inscripciones_soap\server_simple.py", line 206, in <module>
+    print(f"\n\u2713 Servidor SOAP iniciado en http://{HOST}:{PORT}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC PRIDE WHITE WOLF\AppData\Local\Programs\Python\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2713' in position 2: character maps to <undefined>
